@@ -23,7 +23,6 @@ while True:
         check = int(user_input)
     except ValueError:
         print("\nInvalid input\n")
-        continue
     else:
         if int(user_input) > 1000000:
             print("\nInvalid input\n")
@@ -45,4 +44,3 @@ while True:
         dashthousands = digit2roman2(int(digits[3]), " ", "_")
         print(dashmillions + dashhunthousands + dashdecthousands + dashthousands)
         print (millions + hunthousands + decthousands + thousands + hundreds + tens + ones + "\n")
-        continue
